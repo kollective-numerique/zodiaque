@@ -1,3 +1,4 @@
+/*definir un marge interieur et exterieur à zéro ajout du font à utiliser*/
 *{
     padding: 0%;
     margin: 0% ;
@@ -5,6 +6,8 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+/* styliser le navigateur*/
 nav
 {
     width: 100%;
@@ -60,6 +63,7 @@ nav .menu
     color: black;
 }
 
+/*le bloc image comprnds la totalit" de l'ecran et la hauteir de 100vh*/
 .img
 {
     background: url('../img/FIGMAGROUPE12.png') no-repeat;
@@ -70,8 +74,7 @@ nav .menu
     position: relative;
 }
 
-
-
+/*le bloc centre va juste être supperposer sur l'image*/
 .center
 {
     position: absolute;
