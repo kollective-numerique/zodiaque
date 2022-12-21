@@ -1,0 +1,215 @@
+/* la première partie */
+.grid-container{
+    display: grid;
+    grid-template-columns:  auto auto;
+    margin: 2% 5%;
+    background-color: #F8F0DE;
+   
+}
+.child img{
+    width: 80%;
+    height: 75%;
+    margin-left: 5%;
+    
+}
+.enfant img{
+    height: 75%;
+    width: 90%;
+    margin-right: 5%;
+    margin-top: 5%;
+
+}
+.child h1 {
+    text-align: center;
+}
+.child p{
+    margin-left: 50%;
+}
+.enfant p{
+    margin-left: 50%;
+}
+
+/* la seconde partie */
+.part{
+    margin: 2% 5%;
+    background-color: #F8F0DE ;
+    text-align: center;
+     
+}
+.part img{
+    width: 80%;
+    height: 5%;
+    margin: 5%;
+}
+.part p{
+    text-align: right;
+    margin-right: 10%;
+}
+/* la troisième partie */
+.famille{
+    display: grid;
+    grid-template-columns:  auto auto;
+    margin: 2% 5%;
+    background-color: #F8F0DE;
+}
+.pere img{
+    width: 80%;
+    height: 75%;
+    margin-left: 5%;
+}
+.couple img{
+    width: 85%;
+    height: 85%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.pere h1 {
+    text-align: center;
+}
+.pere p{
+    margin-left: 60%;
+}
+.couple p{
+    margin-left: 55%;
+}
+/*la quatrième partie*/
+.evenement{
+    margin: 2% 5%;
+    background-color: #F8F0DE ;
+    text-align: center;
+}
+.evenement img{
+    width: 80%;
+    height: 5%;
+    margin: 5%;
+}
+/*la cinquième partie*/
+.voyage{
+    display: grid;
+    grid-template-columns:  auto auto;
+    margin: 5% 5%;
+    background-color: #F8F0DE; 
+}
+.monde img{
+    width: 80%;
+    height: 75%;
+    margin-left: 5%; 
+}
+.horizon img{
+    width: 85%;
+    height: 80%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.monde p{
+    margin-left: 60%;
+}
+.horizon p{
+    margin-left: 60%;
+}
+.monde h1{
+    text-align: center;
+}
+/*la cinquième partie*/
+.nature{
+    margin: 2% 5%;
+    background-color: #F8F0DE ;
+    text-align: center;
+}
+.nature img{
+    width: 80%;
+    height: 5%;
+    margin: 5%;
+}
+.nature p {
+    text-align: right;
+    margin-right: 10%;
+}   
+/*responsive de la page*/
+@media(max-width:1000px)
+{
+        /* la première partie */
+    .grid-container{
+        display: grid;
+        grid-template-columns:  auto;
+        grid-row-gap: 5%;
+        margin: 5%;
+        background-color: #F8F0DE;
+    
+    }
+    .child img{
+        width: 80%;
+        height: 80%;
+        margin: 5%;
+        
+    }
+    .enfant img{
+        height: 80%;
+        width: 80%;
+        margin: 5%;
+    
+    }
+    .child h1 {
+        text-align: center;
+        
+    }
+    .child p{
+        display: none;
+    }
+    .enfant p{
+        display: none;
+    }
+    /* la troisième partie */
+    .famille{
+        display: grid;
+        grid-template-columns:  auto ;
+        margin: 2% 5%;
+        background-color: #F8F0DE;
+        grid-row-gap:5%;
+    }
+    .pere img{
+        width: 80%;
+        height: 80%;
+        margin-left: 5%;
+    }
+    .couple img{
+        width: 80%;
+        height: 80%;
+        margin:5%;
+    }
+    .pere h1 {
+        text-align: center;
+    }
+    .pere p{
+    display: none;
+    }
+    .couple p{
+        display: none;
+   }
+   /*la cinquième partie*/
+    .voyage{
+        display: grid;
+        grid-template-columns:  auto ;
+        margin: 5% ;
+        background-color: #F8F0DE; 
+        grid-row-gap:5%;
+    }
+    .monde img{
+        width: 80%;
+        height: 80%;
+        margin: 5%; 
+    }
+    .horizon img{
+        width: 80%;
+        height: 80%;
+        margin: 5%;}
+    .monde p{
+        display: none;
+    }
+    .horizon p{
+    display: none;
+    }
+    .monde h1{
+        text-align: center;
+    }
+}
