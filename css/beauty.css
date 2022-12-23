@@ -3,7 +3,7 @@
     padding: 0%;
     margin: 0% ;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:  'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -102,7 +102,149 @@ nav .menu
     font-weight: lighter;
 }
 
+/*la partie reservation*/
 
+.second_part
+{
+    background: url(../img/FIGMAGROUPE11.png);
+    width: 100%;
+    height: 100vh;
+    padding-top: 8%;
+    padding-left: 13%;
+    background-position:center ; 
+    background-size: 100% 100% ;
+    
+}
+
+.second_part .bloc_second_part
+{
+    width: 85%;
+    height: 70vh;
+    background: #F8F0DE;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.second_part .bloc_second_part h2
+{
+    margin-top: -100px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.second_part .bloc_second_part .contenue
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.second_part .bloc_second_part .contenue button
+{
+    width: 150px;
+    height: 40px;
+    margin-top: 7%;
+    margin-left: 40%;
+    background: #F8F0DE;
+    border: solid 1px black;
+}
+
+.second_part .bloc_second_part .contenue button a
+{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*la partie reservation*/
+
+.last_part
+{
+    background: url(../img/FIGMAGROUPE1.png);
+    width: 100%;
+    height: 100vh;
+    padding-top: 8%;
+    padding-left: 13%;
+    background-position:center ; 
+    background-size: 100% 100% ;
+    
+}
+
+.last_part .bloc_last_part
+{
+    width: 85%;
+    height: 70vh;
+    background: #F8F0DE;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.last_part .bloc_last_part h2
+{
+    margin-top: -100px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.last_part .bloc_last_part .contenue
+{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+
+.last_part .bloc_last_part .contenue p
+{
+    font-weight: 200;
+}
+
+.last_part .bloc_last_part .contenue button
+{
+    width: 150px;
+    height: 40px;
+    margin-right: 3%;
+    background: #F8F0DE;
+    border: solid 1px black;
+}
+
+.last_part .bloc_last_part .contenue button a
+{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+}
 
 @media screen and (max-width: 800px)
 {
@@ -164,5 +306,55 @@ nav .menu
         font-size: 1rem;
     }
 
+/*responsive pour à propos*/
+    .second_part .bloc_second_part
+    {
+        height: 80vh;
+        margin-top: 4%;
+    }
+    .second_part .bloc_second_part h2
+    {
+        margin-top: -50px;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .second_part .bloc_second_part .contenue
+    {
+        display: flex;
+        font-size: 1rem;
+        flex-direction: column;
+    }
+
+    .second_part .bloc_second_part .contenue button
+    {
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+
+
+
+    .last_part .bloc_last_part
+    {
+        height: 50vh;
+        margin-top: 40%;
+    }
+    .last_part .bloc_last_part h2
+    {
+        margin-top: -10px;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .last_part .bloc_last_part .contenue
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last_part .bloc_last_part .contenue button
+    {
+        margin-top: 5%;
+        margin-left: 10%;
+    }
 
 }
