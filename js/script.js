@@ -1,6 +1,6 @@
 var i = 1
 
-while (i < 101 ) 
+while (i < 51 ) 
 {
     fetch(`https://jsonplaceholder.typicode.com/photos/${i}` )
     
