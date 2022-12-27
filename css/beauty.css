@@ -197,6 +197,13 @@ nav .menu
     outline: none;
 }
 
+.famille button a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
 .pere h1 {
     text-align: center;
     margin-top: 10%;
@@ -228,6 +235,12 @@ nav .menu
     outline: none;
 }
 
+.evenement button a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
 .monde button 
 {
     border: solid 1px transparent;
@@ -250,6 +263,24 @@ nav .menu
     background: transparent;
     margin-bottom: 5%;
     outline: none;
+}
+.monde button a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.nature button a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.horizon button a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
 }
 /*la cinquième partie*/
 .voyage{
