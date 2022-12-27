@@ -1,29 +1,18 @@
+var i = 1
 
-if (window.HTMLTitleElement = "page") 
+while (i < 101 ) 
 {
-  function createimage(tableau) {
-    for (item of tableau) {
-      let simg = document.createElement('img');
-      simg.setAttribute('src', item.url);
-      document.body.appendChild(simg);
+    fetch(`https://jsonplaceholder.typicode.com/photos/${i}` )
+    
+    .then((response) => response.json())
+    .then((json) =>
+    {
+        let ajout = `<div class="content"><img src= " ${json.url} "/></div>`
+         document.getElementById("image-wrapper").innerHTML += ajout
     }
-  }
+    )
+    i++;
 }
 
-
-  function photos()
-  {
+ 
   
-    fetch('https://jsonplaceholder.typicode.com/photos')
-    
-   .then((response) => response.json())
-   .then((json) => console.log(json));
-  };
-
-photos();
-button.addEventListener("click", photos);
-
-
-
-
-
