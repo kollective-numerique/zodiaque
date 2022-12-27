@@ -13,14 +13,34 @@ fetch("data.json");
   .then((json) => createimage(json))*/
 
   const button = document.getElementById("animal");
+  let image = document.getElementById("image");
 
   function photos()
   {
   
     fetch('https://jsonplaceholder.typicode.com/photos')
+    
    .then((response) => response.json())
    .then((json) => console.log(json));
   };
 
-  photos();
-button.addEventListener("click", photos);
+photos();
+
+
+
+for (let i = 0; i < 50; i++) {
+
+  function demarrage() 
+  {
+    var monImage = document.createElement('image');
+    image.src = `#${response.id}`;
+
+    id++;
+
+  }
+  
+  window.addEventListener("load",demarrage);
+  
+  button.addEventListener("click", photos);
+  
+}

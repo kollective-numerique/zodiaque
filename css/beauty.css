@@ -107,18 +107,19 @@ nav .menu
 .grid-container{
     display: grid;
     grid-template-columns:  auto auto;
-    margin: 2% 5%;
+    margin: 2%;
     background-color: #F8F0DE;
    
 }
 .child img{
     width: 80%;
-    height: 75%;
+    height: 55%;
     margin-left: 5%;
+    margin-top: 20%;
     
 }
 .enfant img{
-    height: 75%;
+    height: 65%;
     width: 90%;
     margin-right: 5%;
     margin-top: 5%;
@@ -126,6 +127,9 @@ nav .menu
 }
 .child h1 {
     text-align: center;
+    margin-top: 15%;
+    font-size: 3rem;
+
 }
 .child p{
     margin-left: 50%;
@@ -141,6 +145,21 @@ nav .menu
     text-align: center;
      
 }
+
+.part button
+{
+    border: solid 1px transparent;
+    background: transparent;
+    margin-bottom: 5%;
+    outline: none;
+}
+
+.part button a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
 .part img{
     width: 80%;
     height: 5%;
@@ -154,22 +173,34 @@ nav .menu
 .famille{
     display: grid;
     grid-template-columns:  auto auto;
-    margin: 2% 5%;
+    margin: 10% ;
     background-color: #F8F0DE;
 }
 .pere img{
-    width: 80%;
-    height: 75%;
+    width: 70%;
+    height: 65%;
     margin-left: 5%;
+    margin-top: 10%;
 }
 .couple img{
-    width: 85%;
-    height: 85%;
-    margin-right: 5%;
+    width: 70%;
+    height: 80%;
+    margin-right: 15%;
     margin-top: 5%;
 }
+
+.famille button 
+{
+    border: solid 1px transparent;
+    background: transparent;
+    margin-bottom: 5%;
+    outline: none;
+}
+
 .pere h1 {
     text-align: center;
+    margin-top: 10%;
+    font-size: 3rem;
 }
 .pere p{
     margin-left: 60%;
@@ -187,6 +218,38 @@ nav .menu
     width: 80%;
     height: 5%;
     margin: 5%;
+}
+
+.evenement button 
+{
+    border: solid 1px transparent;
+    background: transparent;
+    margin-bottom: 5%;
+    outline: none;
+}
+
+.monde button 
+{
+    border: solid 1px transparent;
+    background: transparent;
+    margin-bottom: 5%;
+    outline: none;
+}
+
+.horizon button 
+{
+    border: solid 1px transparent;
+    background: transparent;
+    margin-bottom: 5%;
+    outline: none;
+}
+
+.nature button 
+{
+    border: solid 1px transparent;
+    background: transparent;
+    margin-bottom: 5%;
+    outline: none;
 }
 /*la cinquième partie*/
 .voyage{
@@ -206,6 +269,8 @@ nav .menu
     margin-right: 5%;
     margin-top: 5%;
 }
+
+
 .monde p{
     margin-left: 60%;
 }
@@ -382,6 +447,22 @@ nav .menu
     font-weight: 600;
 }
 
+
+.grid-container button
+{
+    background: transparent;
+    outline: none;
+    border: solid 1px transparent;
+    text-align: right;
+    margin-left: 60%;
+}
+
+.grid-container button a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
 
 
 
