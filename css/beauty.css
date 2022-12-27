@@ -300,27 +300,24 @@ nav .menu
 {
         /* la première partie */
     .grid-container{
-        display: grid;
-        grid-template-columns:  auto;
-        grid-row-gap: 5%;
-        margin: 5%;
-        background-color: #F8F0DE;
+        display: flex;
+        flex-direction: column;
     
     }
     .child img{
         width: 80%;
-        height: 80%;
+        height: 60%;
         margin: 5%;
         
     }
     .enfant img{
-        height: 80%;
-        width: 80%;
-        margin: 5%;
+        height: 100%;
+        width: 50%;
+        margin-left: 20%;
     
     }
     .child h1 {
-        text-align: center;
+        font-size: 2rem;
         
     }
     .child p{
@@ -331,11 +328,10 @@ nav .menu
     }
     /* la troisième partie */
     .famille{
-        display: grid;
-        grid-template-columns:  auto ;
-        margin: 2% 5%;
-        background-color: #F8F0DE;
-        grid-row-gap:5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+       
     }
     .pere img{
         width: 80%;
@@ -348,7 +344,7 @@ nav .menu
         margin:5%;
     }
     .pere h1 {
-        text-align: center;
+        font-size: 2rem;
     }
     .pere p{
     display: none;
@@ -358,11 +354,9 @@ nav .menu
    }
    /*la cinquième partie*/
     .voyage{
-        display: grid;
-        grid-template-columns:  auto ;
-        margin: 5% ;
-        background-color: #F8F0DE; 
-        grid-row-gap:5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
     .monde img{
         width: 80%;
