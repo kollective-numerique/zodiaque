@@ -8,7 +8,7 @@ while (i < 101 )
     .then((json) =>
     {
         let ajout = `<div class="content"><img src= " ${json.url} "/></div>`
-         document.getElementById("image-wrapper").innerHTML += ajout
+         document.getElementById("image_wrapper").innerHTML += ajout
     }
     )
     i++;

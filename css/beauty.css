@@ -541,6 +541,21 @@ nav .menu
     font-weight: 600;
 }
 
+
+
+/* css pour la page page*/
+
+
+#image_wrapper
+{
+    display: flex;
+    background-color: #F8F0DE;
+    width: 90%;
+    margin: 3%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 @media screen and (max-width: 800px)
 {
 
