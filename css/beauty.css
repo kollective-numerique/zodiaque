@@ -587,6 +587,8 @@ nav .menu
     justify-content: space-around;
 }
 
+
+
 @media screen and (max-width: 800px)
 {
 
@@ -673,6 +675,16 @@ nav .menu
     }
 
 
+    #image_wrapper
+    {
+        width: 100%;
+        margin: 0px;
+    }
+    #image_wrapper img
+    {
+        width: 80%;
+        margin: 10%;
+    }
 
 
     .last_part .bloc_last_part
